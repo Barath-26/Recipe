@@ -3,7 +3,7 @@ import React from 'react';
 function SearchBar({ searchTerm, setSearchTerm }) {
   return (
     <div className="search-container">
-     {/*  <input
+       <input
         type="text"
         placeholder="Search for a recipe..."
         value={searchTerm}

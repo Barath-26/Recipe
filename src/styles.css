@@ -916,7 +916,13 @@ body {
     text-align: center; /* Center the text */
     margin-top: 10px; /* Space from other elements */
   }
-  
+  .bookmark-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 28px; /* Increases the size of the bookmark icon */
+  }
   .view-recipe-btn:hover {
     background-color: #FF8C00; /* Darker shade of orange on hover */
   }
@@ -946,7 +952,7 @@ body {
 }
 
 .recipe-card {
-  border: 1px solid #ccc;
+  border: 1px solid #ef2828;
   margin: 10px;
   padding: 15px;
   width: 200px;
@@ -971,4 +977,63 @@ body {
 .no-favorites {
   text-align: center;
   font-size: 18px;
+}
+
+.search-bar1 {
+  width: 100%; /* Adjust this value as needed */
+  max-width: 1500px; /* Set a max width to prevent it from being too wide */
+  padding: 10px; /* Optional: Adjust padding for better appearance */
+  font-size: 16px; /* Optional: Adjust font size for better visibility */
+}
+
+/* styles.css */
+.search-input {
+  width: 100%; /* Makes the input take the full width of the container */
+  max-width: 1320px; /* Set a max width to prevent it from being too wide */
+  padding: 10px; /* Optional: Adjust padding for better appearance */
+  font-size: 16px; /* Optional: Adjust font size for better visibility */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.btn-container {
+  display: flex;               /* Use flexbox for alignment */
+  align-items: center;        /* Center items vertically */
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.heart-btn {
+  margin-right: 10px;         /* Space between heart icon and view button */
+  color: gray;                 /* Default color for heart icon */
+  cursor: pointer;             /* Change cursor on hover */
+}
+
+.heart-btn:hover {
+  color: red;                  /* Change color on hover */
+}
+
+.view-recipe-btn {
+  margin-right: 10px;         /* Space between view button and delete icon */
+}
+
+.delete-btn {
+  color: gray;                 /* Default color for delete icon */
+  cursor: pointer;            /* Change cursor on hover */
+  
+}
+
+.delete-btn:hover {
+  color: red;                  /* Change color on hover */
+}
+
+.small-icon {
+  font-size: 0.8em; /* Adjust the size as needed (e.g., 0.8em for smaller size) */
+  margin-left: 10px; /* Optional: space between the view button and delete icon */
+  color: gray; /* Default color for the delete icon */
+  cursor: pointer; /* Change cursor on hover */
+}
+
+.small-icon:hover {
+  color: red; /* Change color on hover */
 }
